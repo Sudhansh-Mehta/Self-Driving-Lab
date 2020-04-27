@@ -1,34 +1,26 @@
-### 4C16 Lab 6 - Self Driving Car
-In [ ]:
-### First!  Read https://github.com/frcs/EE4C16-self-driving-lab for more info.
-
-### Second!  Read this carefully!
-
-# In this lab you will train a neural net to drive a virtual driving simulator,
-# using data recorded from your own manual operation of the sim.
+## drive a virtual driving simulator,
+# using data recorded from your own manual operation of the Udacity simulator
 #
-# Your model will attempt to predict the correct steering angle, given the input
+# Model will attempt to predict the correct steering angle, given the input
 # images, using your recorded laps as training data.
 #
-# Your model will be operating in cruise control mode; it does not have any throttle
+# Model will be operating in cruise control mode; it does not have any throttle
 # input, and will not be able to reverse.
 #
-# Step 1 is to run the simulator on your local machine (within Windows, in the CADLab)
+# Run the simulator on your local machine (within Windows, in the CADLab)
 # and drive around while recording training data.  For each timestep in your driving,
 # three images are recorded: the center (straight ahead) view, and also left and right 
 # views.  Your steering angle is also recorded.
 #
-# Step 2: You will upload the training data to your cloud instance and train there, to 
+# Step 2: Upload the training data to your cloud instance and train there, to 
 # take advantage of the GPU.
 #
-# Step 3: You will download the model and use it to pilot the car around the track ('autonomous mode')
+# Step 3: Download the model and use it to pilot the car around the track ('autonomous mode')
 #
-# Step 4: You will upload the record of the car's positions back to your instance using Jupyter
+# Step 4: Upload the record of the car's positions back to your instance using Jupyter
 #
-# Step 5: You will 'git add' the record of the car's positions, and 'submit-lab 6' to check your score.
-#
-# You can repeat steps 2--5 with more training, more complex models, etc.
-# You can also repeat step 1 if you decide you need more or more varied training data.
+# Step 5: 'git add' the record of the car's positions
+#Check your score.
 In [ ]:
 # Import some necessary modules.
 import keras
